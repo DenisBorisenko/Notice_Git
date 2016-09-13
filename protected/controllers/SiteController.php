@@ -23,7 +23,6 @@ class SiteController extends Controller
             else
                 $error = User::$lastError;
         }
-
         $this->render('login', array('error' => $error));
     }
 }
