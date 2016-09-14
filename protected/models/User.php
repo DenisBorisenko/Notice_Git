@@ -17,6 +17,7 @@ class User extends Model
 
     public function tableName()
     {
+        //
         return '{{user}}';
     }
 
